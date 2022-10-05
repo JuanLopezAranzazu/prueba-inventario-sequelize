@@ -1,0 +1,21 @@
+GET http://localhost:3001/api/v1/employees
+
+###
+
+GET http://localhost:3001/api/v1/positions
+
+###
+
+GET http://localhost:3001/api/v1/devices
+
+###
+
+POST http://localhost:3001/api/v1/employees
+Content-Type: application/json
+
+{
+  "name": "ESTEBAN ARANZAZU",
+  "email": "lopezaranzazuesteban@gmail.com",
+  "contact_number": "3103994090",
+  "position_id": 3
+}
