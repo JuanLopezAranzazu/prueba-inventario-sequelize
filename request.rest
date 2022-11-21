@@ -2,14 +2,6 @@ GET http://localhost:3001/api/v1/employees
 
 ###
 
-GET http://localhost:3001/api/v1/positions
-
-###
-
-GET http://localhost:3001/api/v1/devices
-
-###
-
 POST http://localhost:3001/api/v1/employees
 Content-Type: application/json
 
@@ -19,3 +11,34 @@ Content-Type: application/json
   "contact_number": "3103994090",
   "position_id": 3
 }
+
+###
+
+GET http://localhost:3001/api/v1/positions
+
+###
+
+POST http://localhost:3001/api/v1/positions
+Content-Type: application/json
+
+{
+  "name": "BACKEND SOFTWARE DEVELOPER",
+}
+
+###
+
+GET http://localhost:3001/api/v1/devices
+
+###
+
+POST http://localhost:3001/api/v1/devices
+Content-Type: application/json
+
+{
+  "name": "PORTATIL",
+  "description": "COMPUTER PORTATIL",
+}
+
+###
+
+GET http://localhost:3001/api/v1/pdf
